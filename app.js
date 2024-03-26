@@ -1,5 +1,5 @@
 // Task - 26.03.2024
-//? 1. Daxil olunan ədədin sadə yoxsa mürəkkəb olduğunu tapın.
+// 1. Daxil olunan ədədin sadə yoxsa mürəkkəb olduğunu tapın.
 let eded = +prompt("Eded daxil edin :");
 let bolen_saylari = 0;
 
@@ -20,7 +20,7 @@ if (eded === 1) {
   console.log(`${eded}, 0-dan boyuk eded daxil edin `);
 }
 
-//? 2. Daxil olunan ədədin mükəmməl olub olmadığını tapın.
+// 2. Daxil olunan ədədin mükəmməl olub olmadığını tapın.
 let eded2 = +prompt("Eded daxil edin :");
 let cem2 = 0;
 for (let bolen = 1; bolen < eded2; bolen++) {
@@ -34,7 +34,7 @@ if (eded2 === cem2) {
   console.log(`${eded2} mukemmel eded deyil`);
 }
 
-//? 3. Daxil olunan 2 ədəd arasındakı mükəmməl ədədləri göstərin.
+// 3. Daxil olunan 2 ədəd arasındakı mükəmməl ədədləri göstərin.
 let min_number = +prompt("1-ci ededi daxil edin :");
 let max_number = +prompt("2-ci ededi daxil edin :");
 let sum = 0;
@@ -50,7 +50,7 @@ for (let i = min_number + 1; i < max_number; i++) {
   }
 }
 
-//? 4. Daxil olunan 2 ədəd arasındakı sadə ədədləri göstərin.
+// 4. Daxil olunan 2 ədəd arasındakı sadə ədədləri göstərin.
 let min_num = +prompt("1-ci ededi daxil edin :");
 let max_num = +prompt("2-ci ededi daxil edin :");
 
@@ -66,7 +66,7 @@ for (let i = min_num + 1; i < max_num; i++) {
     console.log(`${i} - sade`);
   }
 }
-//?  5. Daxil olunan 2 ədəd arasındakı sonu 7 ilə bitən ədədləri göstərin.
+//  5. Daxil olunan 2 ədəd arasındakı sonu 7 ilə bitən ədədləri göstərin.
 let min_numb = +prompt("1-ci ededi daxil edin :");
 let max_numb = +prompt("2-ci ededi daxil edin :");
 
